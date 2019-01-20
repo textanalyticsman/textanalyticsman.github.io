@@ -30,7 +30,7 @@ The software available in this link: [GitHub repository](https://github.com/text
 
 Thus, I believe that you should have these questions.
 
-* How could you recognize and classify entities automatically? You can do it through two methods Named Entities Recognition(NER) and Named
+* How could you recognize and classify entities automatically? You can do it through two methods Named Entities Recognition (NER) and Named
 Entities Classification (NEC). This two problems are solved thanks to [FreeLing](http://nlp.lsi.upc.edu/freeling/node/1), an engine to process natural language written in C++,
 which in this case is called is used through an API for Java.
 
