@@ -15,7 +15,7 @@ Extracting a network from unstructured text is not an easy task because it impli
 |:--:| 
 | *In this picture you can get an idea about how cumbersome a pure manual process is* |
 
-Furthermore, some of the entities recognized during the process can be exactly the same entity because the usage of aliases, first names or surnames indistinctly, which makes this process even more difficult. Even though, today there are many tools to visualize and to analyse social networks, one of the main problems that people have when they want to analyse networks described by unstructured text written in Spanish is the lack of tools to face these problems.
+Furthermore, some of the entities recognized during the process can be exactly the same entity because the usage of aliases, first names or surnames indistinctly, which makes this process even more difficult. Even though, today there are many tools to visualize and to analyse social networks, one of the main problems that people have (when they want to analyse networks described by unstructured text written in Spanish) is the lack of tools to face these problems.
 
 * Recognition of entities, extracting entities from unstructured text.
 * Classification of entities, classifying entities such as persons, organizations, places, etc.
@@ -59,7 +59,7 @@ in a text taken from this [link](https://larepublica.pe/politica/1397419-informa
 |:--:| 
 | *Entities recognized while you read this text* |
 
-This is the fist step of the workflow described above; the network that I am going to create here is based on ten articles from a Peruvian newspaper. Thus, following I am going to show you how to use the SW to ingest data, get entities and classify entities as persons (PER), locations (LOC), organizations (ORG) and other (OTH) when FreeLing (engine used by this software) is not able to classify an entity.  
+This is the fist step of the workflow described above; the network that I am going to create here is based on ten articles from a Peruvian newspaper. Thus, following I am going to show you how to use the SW to ingest data, get entities and classify entities as persons (PER), locations (LOC), organizations (ORG) and other (OTH). Others (OTH) is used when FreeLing (engine used by this software) is not able to classify an entity.  
 
 1.  **Creating some articles on the database**.
 
@@ -118,7 +118,7 @@ This is the fist step of the workflow described above; the network that I am goi
 	
 | ![](/pictures/2019-01-16-GneratingANetworkFromText/08.png) | 
 |:--:| 
-| *Eventually, you can see the entities extracted from unstructured text and their classification as PER, LOC and OTH* |
+| *Eventually, you can see the entities extracted from unstructured text and their classification as PER, LOC, ORG and OTH* |
 	
 # Conclusion
-In this first post the first pat of the workflow, the ingestion of data and the extraction of classification of entities have been shown. In the following post, I will show you how to use the same software to review and to fix entities, which is still hard. However, it is much better that doing the whole process by hand.
+In this post the first part of the workflow, which means the ingestion of data and the extraction and classification of entities have been shown. In the following post, I will show you how to use the same software to review and to fix entities, which is still hard. However, it is much better that doing the whole process by hand.
