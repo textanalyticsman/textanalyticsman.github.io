@@ -30,7 +30,7 @@ The software available in this link: [GitHub repository](https://github.com/text
 
 Thus, I believe that you should have these questions.
 
-* How could you recognize and classify entities automatically? You can do it through two methods Named Entities Recognition (NER) and Named
+* How could you recognize and classify entities automatically? You can do it through two methods Named Entities Recognition (NER) sand Named
 Entities Classification (NEC). This two problems are solved thanks to [FreeLing](http://nlp.lsi.upc.edu/freeling/node/1), an engine to process natural language written in C++,
 which in this case is called is used through an API for Java.
 
@@ -51,7 +51,7 @@ which in this case is called is used through an API for Java.
 This post is the first one of a series that will show you how to build a network composed by entities extracted from unstructured text written in Spanish. The problem solved in this post is the recognition and classification of entities, which is solved through two methods Named Entities Recognition(NER) and Named
 Entities Classification (NEC). 
 
-How does NEC and NER look like? When we read a text, let us say a novel, we can recognize entities such as persons, organizations, places, etc. so NER is about automating the 
+How do NEC and NER look like? When we read a text, let us say a novel, we can recognize entities such as persons, organizations, places, etc. so NER is about automating the 
 recognition of entities and NEC is the part that will allow the classification of entities recognized by NER. For example, the following picture remarks some entities recognized
 in a text taken from this [link](https://larepublica.pe/politica/1397419-informacion-odebrecht-servira-sancionar-corruptos)
 
@@ -121,4 +121,4 @@ This is the fist step of the workflow described above; the network that I am goi
 | *Eventually, you can see the entities extracted from unstructured text and their classification as PER, LOC, ORG and OTH* |
 	
 # Conclusion
-In this post the first part of the workflow, which means the ingestion of data and the extraction and classification of entities have been shown. In the following post, I will show you how to use the same software to review and to fix entities, which is still hard. However, it is much better that doing the whole process by hand.
+In this post the first part of the workflow, which means the ingestion of data and the extraction and classification of entities, has been shown. In the following post, I will show you how to use the same software to review and to fix entities, which is still hard. However, it is much better that doing the whole process by hand.
