@@ -1,6 +1,6 @@
 ---
 date: '2019-01-28 09:42:00'
-tags: SNA
+tags: [SNA, Social Network Analysis, text analytics, text mining, co-occurrence, entity named recognition, entity named classification]
 layout: post
 cover: /pictures/2019-01-16-GneratingANetworkFromText/01.png
 categories: Social_Network_Analysis
