@@ -4,7 +4,7 @@ tags: [SNA, Social Network Analysis, text analytics, text mining, co-occurrence,
 layout: post
 cover: /pictures/2019-01-16-GneratingANetworkFromText/01.png
 categories: Social_Network_Analysis
-title: Generating a network from text written in Spanish - extracting and recognizing entities
+title: Generating a social network from unstructured text - extracting and recognizing entities
 author: textanalyticsman
 ---
 # Introduction
