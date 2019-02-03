@@ -160,4 +160,4 @@ And another
 
 # Conclusion
 
-This post has shown how to generate clusters of entities based on the Jaccard distance as a measure of similarity based on tokens and the algorithm called [density-based spatial clustering of applications with noise (DBSCAN)](https://dl.acm.org/citation.cfm?id=3001507). So far we have managed to create clusters, but there are miss-clustered entities that should be fixed manually and even thought this process is going to be hard, it is still much better than a pure manual process. 
+This post has shown how to generate clusters of entities based on the Jaccard distance as a measure of similarity based on tokens and the algorithm called [density-based spatial clustering of applications with noise (DBSCAN)](https://dl.acm.org/citation.cfm?id=3001507). So far we have managed to create clusters, but there are miss-clustered entities that should be fixed manually and even though this process is going to be hard, it is still much better than a pure manual process. 
