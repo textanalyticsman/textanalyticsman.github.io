@@ -1,19 +1,19 @@
 ---
 date: '2019-02-03 16:28:00'
-tags: [SNA, Social Network Analysis, text analytics, text mining, co-occurrence, entity named recognition, entity named classification,clustering]
+tags: [SNA, Social Network Analysis, text analytics, text mining, co-occurrence, entity named recognition, entity named classification,clustering, generating a social network from unstructured text, network text analysis]
 layout: post
 cover: /pictures/2019-01-16-GneratingANetworkFromText/01.png
 categories: Social_Network_Analysis
-title: Generating a social network from unstructured text - Entities' Normalization
+title: Network text analysis - Entities Clustering
 author: textanalyticsman
 ---
 # Introduction
 
 *Before getting into this post I want to say that for me programming is an art, it is a beautiful form to make real the things I can imagine, it is a way to release my dreams and my creativity and this is why I cannot work as a programmer; because this is beyond schedules and commercial pressures, this is part of the search.*
 
-The [previous post](/social_network_analysis/NetworkFromTextFixingEntities/) was about using the [software](https://github.com/textanalyticsman/extractnetworksfromtext) to fix miss-classified entities. Thus, so far we have covered the extraction and the classification of entities as was mentioned on the [first post](/social_network_analysis/GneratingANetworkFromText/). Thus, this post is about the next problem to be solved after recognizing and classifying entities; the normalization of entities.
+The [previous post](/social_network_analysis/NetworkFromTextFixingEntities/) was about using the [software](https://github.com/textanalyticsman/extractnetworksfromtext) to fix miss-classified entities. Thus, so far we have covered the extraction and the classification of entities as was mentioned on the [first post](/social_network_analysis/GneratingANetworkFromText/). So, this post is about the next problem to be solved after recognizing and classifying entities; the generation of cluster to recognize similar entities that are the same.
 
-# Normalization of entities
+# Clusters of entities
 
 **Choosing a distance function to compare entities**
 

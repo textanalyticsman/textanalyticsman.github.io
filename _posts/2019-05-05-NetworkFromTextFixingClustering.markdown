@@ -1,10 +1,10 @@
 ---
 date: '2019-05-05 16:28:00'
-tags: [SNA, Social Network Analysis, text analytics, text mining, co-occurrence, entity named recognition, entity named classification,clustering]
+tags: [SNA, Social Network Analysis, text analytics, text mining, co-occurrence, entity named recognition, entity named classification,clustering, generating a social network from unstructured text, network text analysis]
 layout: post
 cover: /pictures/2019-01-16-GneratingANetworkFromText/01.png
 categories: Social_Network_Analysis
-title: Generating a social network from unstructured text - Fixing the clustering process
+title: Network text analysis - Fixing the clustering process
 author: textanalyticsman
 ---
 # Introduction
