@@ -145,58 +145,58 @@ Creating the virtual machines
 The process used to create two worker nodes is pretty much the same so,
 the table below summarizes it.
 
-<table>
-<thead>
-<tr class="header">
-<th><strong>Instance name</strong></th>
-<th><strong>Compartment</strong></th>
-<th><strong>Image</strong></th>
-<th><strong>Shape OCPUs</strong></th>
-<th><strong>Shape memory</strong></th>
-<th><strong>Networking VCN</strong></th>
-<th><strong>Networking subnet</strong></th>
-<th><strong>Networking public IPv4 address</strong></th>
-<th><strong>SSH keys</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Control-plane</td>
-<td>cubeClusterCompartment</td>
-<td>Canonical Ubuntu 22.04</td>
-<td>2</td>
-<td>12 GB</td>
-<td>kubeclustervcn</td>
-<td>public subnet- clustervcn</td>
-<td>Yes</td>
-<td><p>“Generate a key pair for me”</p>
-<p>Save the private key</p></td>
-</tr>
-<tr class="even">
-<td>Worker-01</td>
-<td>cubeClusterCompartment</td>
-<td>Canonical Ubuntu 22.04</td>
-<td>1</td>
-<td>6 GB</td>
-<td>kubeclustervcn</td>
-<td>public subnet- clustervcn</td>
-<td>Yes</td>
-<td><p>“Generate a key pair for me”</p>
-<p>Save the private key</p></td>
-</tr>
-<tr class="odd">
-<td>Worker-02</td>
-<td>cubeClusterCompartment</td>
-<td>Canonical Ubuntu 22.04</td>
-<td>1</td>
-<td>6 GB</td>
-<td>kubeclustervcn</td>
-<td>public subnet- clustervcn</td>
-<td>Yes</td>
-<td><p>“Generate a key pair for me”</p>
-<p>Save the private key</p></td>
-</tr>
-</tbody>
+<table class="dcf-table dcf-table-responsive dcf-table-bordered dcf-table-striped dcf-w-100%">
+	<thead>
+		<tr>
+			<th scope="col"><span><strong>Instance name</strong></span></th>
+			<th scope="col"><span><strong>Compartment</strong></span></th>
+			<th scope="col"><span><strong>Image</strong></span></th>
+			<th scope="col"><span><strong>Shape OCPUs</strong></span></th>
+			<th scope="col"><span><strong>Shape memory</strong></span></th>
+			<th scope="col"><span><strong>Networking VCN</strong></span></th>
+			<th scope="col"><span><strong>Networking subnet</strong></span></th>
+			<th scope="col"><span><strong>Networking public IPv4 address</strong></span></th>
+			<th scope="col"><span><strong>SSH keys</strong></span></th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<th scope="row">Control-plane</th>
+			<td data-label="Compartment">cubeClusterCompartment</td>
+			<td data-label="Image">Canonical Ubuntu 22.04</td>
+			<td data-label="Shape OCPUs">2</td>
+			<td data-label="Shape memory">12 GB</td>
+			<td data-label="Networking VCN">kubeclustervcn</td>
+			<td data-label="Networking subnet">public subnet- clustervcn</td>
+			<td data-label="Networking public IPv4 address">Yes</td>
+			<td data-label="SSH keys"><span><p>“Generate a key pair for me”</p>
+<p>Save the private key</p></span></td>
+		</tr>
+		<tr>
+			<th scope="row">Worker-01</th>
+			<td data-label="Compartment">cubeClusterCompartment</td>
+			<td data-label="Image">Canonical Ubuntu 22.04</td>
+			<td data-label="Shape OCPUs">1</td>
+			<td data-label="Shape memory">6 GB</td>
+			<td data-label="Networking VCN">kubeclustervcn</td>
+			<td data-label="Networking subnet">public subnet- clustervcn</td>
+			<td data-label="Networking public IPv4 address">Yes</td>
+			<td data-label="SSH keys"><span><p>“Generate a key pair for me”</p>
+<p>Save the private key</p></span></td>
+		</tr>
+		<tr>
+			<th scope="row">Worker-02</th>
+			<td data-label="Compartment">cubeClusterCompartment</td>
+			<td data-label="Image">Canonical Ubuntu 22.04</td>
+			<td data-label="Shape OCPUs">1</td>
+			<td data-label="Shape memory">6 GB</td>
+			<td data-label="Networking VCN">kubeclustervcn</td>
+			<td data-label="Networking subnet">public subnet- clustervcn</td>
+			<td data-label="Networking public IPv4 address">Yes</td>
+			<td data-label="SSH keys"><span><p>“Generate a key pair for me”</p>
+<p>Save the private key</p></span></td>
+		</tr>
+	</tbody>
 </table>
 
 Installing kubeadm, kebeles and kubectl (ALL NODES)
