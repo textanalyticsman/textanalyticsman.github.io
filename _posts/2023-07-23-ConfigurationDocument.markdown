@@ -3,7 +3,7 @@ date: '2023-07-23 17:24:00'
 tags: [kubernetes, kubeadm, cluster, OCI, Oracle]
 layout: post
 cover: /pictures/2023-07-23-ConfigurationDocument/cover.png
-categories: kubernetes
+categories: kubernetes_install_cluster
 title: Deploying a Kubernetes cluster on Oracle Cloud Infrastructure
 author: textanalyticsman
 ---
